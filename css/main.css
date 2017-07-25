@@ -5809,4 +5809,10 @@ button.close {
   background-repeat: no-repeat;
   background-position: center top; }
 
+.eleventh-section {
+  background-image: url(../img/img_city.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /*# sourceMappingURL=main.css.map */
