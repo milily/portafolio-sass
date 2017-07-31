@@ -5797,6 +5797,73 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #DBDADA; }
+
+/* NAVBAR Y CAROUSEL */
+.nombre_logo {
+  color: #FFFEFE;
+  margin-top: 25px; }
+
+.icons {
+  color: #FFFEFE;
+  padding-top: 20px; }
+
+.boton-nav {
+  margin-top: 16px;
+  background-color: #F31951;
+  border-color: #F31951;
+  padding: 15px;
+  color: #FFFEFE; }
+
+.cont-carousel {
+  height: 550px; }
+
+.carousel-caption h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 20px; }
+.carousel-caption h4 {
+  font-family: "Noto Serif", serif;
+  margin-bottom: 80px; }
+.carousel-caption button {
+  width: 150px;
+  margin-bottom: 70px;
+  background-color: #F31951;
+  border-color: #F31951;
+  padding: 15px;
+  color: #FFFEFE; }
+
+/* SECOND SECTION */
+.second-section {
+  background-color: #FFFEFE;
+  width: 95%;
+  border-radius: 10px;
+  position: relative;
+  bottom: 60px; }
+  .second-section .row .glyphicon-th {
+    color: #F31951;
+    font-size: 50px;
+    margin-top: 30px; }
+  .second-section .row .glyphicon-th-list {
+    color: #0DA7C8;
+    font-size: 50px;
+    margin-top: 30px; }
+  .second-section .row .glyphicon-menu-hamburger {
+    color: #099C17;
+    font-size: 50px;
+    margin-top: 30px; }
+  .second-section .row p {
+    font-family: "Raleway", sans-serif;
+    color: #A3A2A2;
+    font-size: 16px;
+    padding: 50px 20px;
+    margin: auto 20px; }
+
 .third-section {
   background-image: url(../img/img_city.jpg);
   background-attachment: fixed;

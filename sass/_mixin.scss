@@ -1,0 +1,14 @@
+@mixin excel(){
+	color: $iconos_nav;
+	padding-top: 20px;
+}
+@mixin boton(){
+	background-color: $boton-color-nav;
+	border-color: $boton-color-nav;
+	padding: 15px;
+	color: $iconos_nav;
+}
+@mixin iconos-container-dos(){
+	font-size: 50px;
+	margin-top: 30px;
+}
