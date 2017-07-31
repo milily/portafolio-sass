@@ -2,7 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	background-color: $back-color-body;
+}
+/* NAVBAR Y CAROUSEL */
 .nombre_logo{
 	color: $nav_color;
 	margin-top: 25px;
@@ -34,6 +37,35 @@
 	}
 }
 
+/* SECOND SECTION */
+.second-section{
+	background-color: $iconos_nav;
+	width: 95%;
+	border-radius: 10px;
+	position: relative;
+	bottom: 60px;
+	.row{
+		.glyphicon-th{
+			color: $boton-color-nav;
+			@include iconos-container-dos();
+		}
+		.glyphicon-th-list{
+			color: #0DA7C8;
+			@include iconos-container-dos();
+		}
+		.glyphicon-menu-hamburger{
+			color: #099C17;
+			@include iconos-container-dos();
+		}
+		p{
+			font-family: $font-raleway;
+			color: $font-color-2section;
+			font-size: 16px;
+			padding: 50px 20px;
+			margin: auto 20px;
+		}
+	}
+}
 .third-section{
 	background-image: url(../img/img_city.jpg);
 	background-attachment : fixed;
