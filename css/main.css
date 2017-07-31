@@ -5797,6 +5797,43 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+.nombre_logo {
+  color: #FFFEFE;
+  margin-top: 25px; }
+
+.icons {
+  color: #FFFEFE;
+  padding-top: 20px; }
+
+.boton-nav {
+  margin-top: 16px;
+  background-color: #F31951;
+  border-color: #F31951;
+  padding: 15px;
+  color: #FFFEFE; }
+
+.cont-carousel {
+  height: 550px; }
+
+.carousel-caption h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 20px; }
+.carousel-caption h4 {
+  font-family: "Noto Serif", serif;
+  margin-bottom: 80px; }
+.carousel-caption button {
+  width: 150px;
+  margin-bottom: 70px;
+  background-color: #F31951;
+  border-color: #F31951;
+  padding: 15px;
+  color: #FFFEFE; }
+
 .third-section {
   background-image: url(../img/img_city.jpg);
   background-attachment: fixed;

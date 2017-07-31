@@ -1,3 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nombre_logo{
+	color: $nav_color;
+	margin-top: 25px;
+}
+.icons{
+	@include excel();
+}
+.boton-nav{
+	margin-top: 16px;
+	@include boton();
+}
+.cont-carousel{
+	height: 550px;
+}
+.carousel-caption{
+	h1{
+		font-size: 70px;
+		font-weight: bolder;
+		margin-bottom: 20px;
+	}
+	h4{
+		font-family: $font-NotoSerif;
+		margin-bottom: 80px;
+	}
+	button{
+		width: 150px;
+		margin-bottom: 70px;
+		@include boton();
+	}
+}
+
 .third-section{
 	background-image: url(../img/img_city.jpg);
 	background-attachment : fixed;
