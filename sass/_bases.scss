@@ -40,7 +40,7 @@ body{
 /* SECOND SECTION */
 .second-section{
 	background-color: $iconos_nav;
-	width: 95%;
+	width: $width-container;
 	border-radius: 10px;
 	position: relative;
 	bottom: 60px;
@@ -66,10 +66,84 @@ body{
 		}
 	}
 }
+
+/* THRID SECTION */
 .third-section{
+	width: $width-container;
+	height: 950px;
+	position: relative;
+	bottom: 60px;
 	background-image: url(../img/img_city.jpg);
 	background-attachment : fixed;
 	background-size: cover;
+	.row{
+		div{
+			padding-top: 40px;
+			padding-left: 70px;
+			h1{
+				font-size: 40px;
+				padding: 30px;
+				font-weight: bolder;
+				color: $nav_color;
+				font-family: $font-NotoSerif;
+			}
+			p{
+				padding: 10px;
+				font-size: 18px;
+				font-weight: bold;
+				color: $nav_color;
+				font-family: $font-raleway;
+			}
+		}
+		div{
+			img{
+				padding-right: 60px;
+				padding-top: 30px;
+			}
+		}
+	}
+}
+
+/* FOURTH SECTION */
+.fourth-section{
+	width: $width-container;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+	position: relative;
+	bottom: 60px;
+	height: 1060px;
+	.row{
+		div{
+			h1{
+				margin-top: 60px;
+				font-family: $font-NotoSerif;
+				font-size: 35px;
+				font-weight: bolder;
+			}
+			p{
+				margin: 40px;
+				font-family: $font-raleway;
+				color: $font-color-2section;
+				font-size: 18px;
+				margin-top: 30px;
+			}
+		}
+	}
+	.row{
+		div{
+			img{
+				width: 300px;
+				height: 370px;
+				border-radius: 10px;
+				margin: 20px;
+			}
+		}
+	}
+}
+.div-img{
+	background-color: $nav_color;
+	height: 800px;
+	width: 250px;
+	margin: 30px;
 }
 .ninth-section{
 	background-image: url(../img/about.jpg);
