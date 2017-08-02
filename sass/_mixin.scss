@@ -17,3 +17,10 @@
 	bottom: 45px;
 	font-weight: bolder;
 }
+@mixin container(){
+	width: $width-container;
+	background-color: $iconos_nav;
+	position: relative;
+	bottom: 60px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+}

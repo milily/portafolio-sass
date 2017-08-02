@@ -5976,8 +5976,77 @@ body {
   .fifth-section .row div .img-portfolio {
     border-radius: 50px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 20px; }
+
+/* SIXTH SECTION */
+.sixth-section {
+  width: 95%;
+  background-color: #FFFEFE;
+  position: relative;
+  bottom: 60px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); }
+  .sixth-section .row div h1 {
+    margin-top: 60px;
+    font-family: "Noto Serif", serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 30px; }
+  .sixth-section .row div p {
+    font-family: "Raleway", sans-serif;
+    color: #A3A2A2;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding: 20px; }
+  .sixth-section .row div .row {
+    margin-bottom: 20px;
+    margin-top: 30px; }
+    .sixth-section .row div .row div .img-our-team {
+      border-radius: 25px;
+      margin-bottom: 20px;
+      margin-left: 35px;
+      padding: 18px; }
+    .sixth-section .row div .row div .tittle {
+      font-family: "Noto Serif", serif;
+      color: #4C4B4B;
+      font-weight: bolder;
+      font-size: 17px;
+      padding-top: 15px;
+      padding-left: 10px; }
+    .sixth-section .row div .row div h5 {
+      font-family: "Raleway", sans-serif;
+      color: #615F5F;
+      font-size: 12px;
+      font-weight: bolder;
+      padding-left: 10px; }
+    .sixth-section .row div .row div p {
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      padding-left: 10px; }
+    .sixth-section .row div .row div .facebook {
+      color: #130BB7;
+      font-size: 15px;
+      margin-left: 30px; }
+    .sixth-section .row div .row div .google {
+      color: #E80C0C;
+      font-size: 15px;
+      margin-left: 30px; }
+    .sixth-section .row div .row div .twitter {
+      color: #34B4D0;
+      font-size: 15px;
+      margin-left: 30px; }
+    .sixth-section .row div .row div .pinterest {
+      color: #E80C0C;
+      font-size: 15px;
+      margin-left: 30px; }
+    .sixth-section .row div .row div .linkedin {
+      color: #5765EA;
+      font-size: 15px;
+      margin-left: 30px; }
+    .sixth-section .row div .row div .github {
+      font-size: 15px;
+      margin-left: 30px; }
 
 .ninth-section {
   background-image: url(../img/about.jpg);

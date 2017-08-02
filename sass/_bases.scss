@@ -180,11 +180,6 @@ body{
 }
 /* FIFTH SECTION */
 .fifth-section{
-	width: $width-container;
-	background-color: $iconos_nav;
-	position: relative;
-	bottom: 60px;
-	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 	.row{
 		div{
 			h1{
@@ -208,12 +203,101 @@ body{
 			.img-portfolio{
 				border-radius: 50px;
 				margin-bottom: 20px;
-				margin-left: 10px;
+				margin-left: 5px;
 				padding: 20px;
 			}
 		}
 	}
-
+	@include container();
+}
+/* SIXTH SECTION */
+.sixth-section{
+	.row{
+		div{
+			h1{
+				margin-top: 60px;
+				font-family: $font-NotoSerif;
+				font-size: 35px;
+				font-weight: bolder;
+				margin-top: 90px;
+				margin-bottom: 30px;
+			}
+			p{
+				font-family: $font-raleway;
+				color: $font-color-2section;
+				font-size: 17px;
+				margin-bottom: 30px;
+				padding: 20px;
+			}
+		}
+	}.row{
+		div{
+			.row{
+				margin-bottom: 20px;
+				margin-top: 30px;
+				div{
+					.img-our-team{
+						border-radius: 25px;
+						margin-bottom: 20px;
+						margin-left: 35px;
+						padding: 18px;
+					}
+				}
+				div{
+					.tittle{
+						font-family: $font-NotoSerif;
+						color: #4C4B4B;
+						font-weight: bolder;
+						font-size: 17px;
+						padding-top: 15px;
+						padding-left: 10px;
+					}
+					h5{
+						font-family: $font-raleway;
+						color: #615F5F;
+						font-size: 12px;
+						font-weight: bolder;
+						padding-left: 10px;
+					}
+					p{
+						font-family: $font-raleway;
+						font-size: 14px;
+						padding-left: 10px;
+					}
+					.facebook{
+						color: #130BB7;
+						font-size: 15px;
+						margin-left: 30px;
+					}
+					.google{
+						color: #E80C0C;
+						font-size: 15px;
+						margin-left: 30px;
+					}
+					.twitter{
+						color: #34B4D0;
+						font-size: 15px;
+						margin-left: 30px;
+					}
+					.pinterest{
+						color: #E80C0C;
+						font-size: 15px;
+						margin-left: 30px;
+					}
+					.linkedin{
+						color: #5765EA;
+						font-size: 15px;
+						margin-left: 30px;
+					}
+					.github{
+						font-size: 15px;
+						margin-left: 30px;
+					}
+				}
+			}
+		}
+	}
+	@include container();
 }
 .ninth-section{
 	background-image: url(../img/about.jpg);
