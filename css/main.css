@@ -5911,14 +5911,44 @@ body {
     font-size: 18px;
     margin-top: 30px; }
   .fourth-section .row div img {
+    position: relative;
+    right: 20px;
+    bottom: 50px;
     width: 300px;
     height: 370px;
     border-radius: 10px;
     margin: 20px; }
+  .fourth-section .row div .descripcion-titulo {
+    font-family: "Raleway", sans-serif;
+    color: #F31951;
+    position: relative;
+    bottom: 45px;
+    font-weight: bolder; }
+  .fourth-section .row div .descripcion-subtitulo {
+    font-family: "Noto Serif", serif;
+    color: #615F5F;
+    position: relative;
+    bottom: 45px;
+    font-weight: bolder; }
+  .fourth-section .row div .descripcion-parrafo {
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    font-size: 15px;
+    bottom: 55px; }
+  .fourth-section .row div .icon-descripcion {
+    position: relative;
+    top: -30px;
+    color: #A3A2A2;
+    font-size: 25px; }
+  .fourth-section .row div .price-description {
+    position: relative;
+    top: -65px;
+    color: #A3A2A2; }
 
 .div-img {
   background-color: #FFFEFE;
-  height: 800px;
+  border-radius: 10px;
+  height: 700px;
   width: 250px;
   margin: 30px; }
 

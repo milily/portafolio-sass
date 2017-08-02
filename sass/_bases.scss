@@ -131,20 +131,52 @@ body{
 	.row{
 		div{
 			img{
+				position: relative;
+				right: 20px;
+				bottom: 50px;
 				width: 300px;
 				height: 370px;
 				border-radius: 10px;
 				margin: 20px;
+			}
+			.descripcion-titulo{
+				font-family: $font-raleway;
+				color: $boton-color-nav;
+				@include titulo-parrafo();
+			}
+			.descripcion-subtitulo{
+				font-family: $font-NotoSerif;
+				color: #615F5F;
+				@include titulo-parrafo;
+			}
+			.descripcion-parrafo{
+				font-family: $font-raleway;
+				position: relative;
+				font-size: 15px;
+				bottom: 55px;
+			}
+			.icon-descripcion{
+				position: relative;
+				top: -30px;
+				color: $font-color-2section;
+				font-size: 25px;
+			}
+			.price-description{
+				position: relative;
+				top: -65px;
+				color: $font-color-2section;
 			}
 		}
 	}
 }
 .div-img{
 	background-color: $nav_color;
-	height: 800px;
+	border-radius: 10px;
+	height: 700px;
 	width: 250px;
 	margin: 30px;
 }
+
 .ninth-section{
 	background-image: url(../img/about.jpg);
 	height: 70vh;
