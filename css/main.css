@@ -5981,6 +5981,7 @@ body {
 
 /* SIXTH SECTION */
 .sixth-section {
+  padding-bottom: 60px;
   width: 95%;
   background-color: #FFFEFE;
   position: relative;
@@ -6047,6 +6048,86 @@ body {
     .sixth-section .row div .row div .github {
       font-size: 15px;
       margin-left: 30px; }
+
+/* SEVENTH SECTION */
+.seventh-section {
+  width: 95%;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  background-color: #DBDADA;
+  position: relative;
+  bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 70px; }
+  .seventh-section .row div {
+    margin-right: 10px; }
+    .seventh-section .row div .titulo-choose {
+      font-family: "Noto Serif", serif;
+      color: #414040;
+      font-weight: bolder;
+      font-size: 30px;
+      padding-left: 60px; }
+    .seventh-section .row div .parraf {
+      font-family: "Raleway", sans-serif;
+      color: #9D9D9D;
+      font-size: 14px;
+      margin-top: 50px;
+      padding-left: 60px; }
+  .seventh-section .row .prices {
+    background-color: #FFFEFE;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.95);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    margin-left: 70px; }
+    .seventh-section .row .prices h5 {
+      font-family: "Raleway", sans-serif;
+      color: #ABAAAA;
+      font-size: 12px;
+      font-weight: bolder; }
+    .seventh-section .row .prices .price-year {
+      font-size: 50px;
+      font-weight: bolder; }
+    .seventh-section .row .prices .year {
+      font-family: "Noto Serif", serif;
+      color: #989797;
+      font-size: 20px; }
+    .seventh-section .row .prices .description-prices {
+      font-family: "Raleway", sans-serif;
+      color: #828282;
+      margin-top: 20px; }
+    .seventh-section .row .prices button {
+      margin-top: 30px;
+      background-color: #F31951;
+      border-color: #F31951;
+      padding: 15px;
+      color: #FFFEFE; }
+  .seventh-section .row .prices2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    margin-left: 70px; }
+    .seventh-section .row .prices2 h5 {
+      font-family: "Raleway", sans-serif;
+      color: #ABAAAA;
+      font-size: 12px;
+      font-weight: bolder; }
+    .seventh-section .row .prices2 .price-year {
+      font-size: 50px;
+      font-weight: bolder; }
+    .seventh-section .row .prices2 .year {
+      font-family: "Noto Serif", serif;
+      color: #989797;
+      font-size: 20px; }
+    .seventh-section .row .prices2 .description-prices {
+      font-family: "Raleway", sans-serif;
+      color: #828282;
+      margin-top: 20px; }
+    .seventh-section .row .prices2 button {
+      margin-top: 30px;
+      background-color: #F31951;
+      border-color: #F31951;
+      padding: 15px;
+      color: #FFFEFE; }
 
 .ninth-section {
   background-image: url(../img/about.jpg);
