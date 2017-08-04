@@ -6172,12 +6172,47 @@ body {
       font-size: 14px;
       padding-left: 10px; }
 
+/* SUSCRIBE TO OUR NEWSLETTER */
 .ninth-section {
   background-image: url(../img/about.jpg);
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top; }
+  background-position: center top;
+  width: 95%;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  bottom: 60px; }
+  .ninth-section .row div h1 {
+    margin-top: 60px;
+    font-family: "Noto Serif", serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color: #FFFEFE; }
+  .ninth-section .row div h4 {
+    font-family: "Raleway", sans-serif;
+    color: #FFFEFE;
+    margin-bottom: 20px; }
+  .ninth-section .row div .row .div-input {
+    background-color: #FFFEFE;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 350px; }
+  .ninth-section .row div .row input {
+    width: 50%;
+    border: 0px;
+    margin-top: 15px;
+    border-bottom: 1px solid grey; }
+  .ninth-section .row div .row button {
+    margin-left: 50px;
+    background-color: #F31951;
+    border-color: #F31951;
+    padding: 15px;
+    color: #FFFEFE; }
 
 .eleventh-section {
   background-image: url(../img/img_city.jpg);
