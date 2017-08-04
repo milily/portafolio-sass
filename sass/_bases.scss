@@ -37,7 +37,7 @@ body{
 	}
 }
 
-/* SECOND SECTION */
+/* RESPONSIVE, QUALITY, SUPPORT */
 .second-section{
 	background-color: $iconos_nav;
 	width: $width-container;
@@ -68,7 +68,7 @@ body{
 	}
 }
 
-/* THRID SECTION */
+/* WHO ARE WE NOW */
 .third-section{
 	width: $width-container;
 	height: 950px;
@@ -106,7 +106,7 @@ body{
 	}
 }
 
-/* FOURTH SECTION */
+/* PRODUCTS */
 .fourth-section{
 	width: $width-container;
 	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
@@ -178,7 +178,7 @@ body{
 	width: 250px;
 	margin: 30px;
 }
-/* FIFTH SECTION */
+/* PORTFOLIO */
 .fifth-section{
 	.row{
 		div{
@@ -210,7 +210,7 @@ body{
 	}
 	@include container();
 }
-/* SIXTH SECTION */
+/* MEET OUR TEAM */
 .sixth-section{
 	.row{
 		div{
@@ -294,6 +294,144 @@ body{
 						margin-left: 30px;
 					}
 				}
+			}
+		}
+	}
+	padding-bottom: 60px;
+	@include container();
+}
+/* CHOOSE A PLAN FOR YOUR NEXT PROJECT */
+.seventh-section{
+	width: $width-container;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	background-color: $back-color-body;
+	position: relative;
+	bottom: 60px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	.row{
+		div{
+			margin-right: 10px;
+			.titulo-choose{
+			font-family: $font-NotoSerif;
+			color: #414040;
+			font-weight: bolder;
+			font-size: 30px;
+			padding-left: 60px;
+			}
+			.parraf{
+			font-family: $font-raleway;
+			color: #9D9D9D;
+			font-size: 14px;
+			margin-top: 50px;
+			padding-left: 60px;
+			}
+		}
+		.prices{
+			background-color: $nav_color;
+			box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.95);
+			h5{
+				font-family: $font-raleway;
+				color: #ABAAAA;
+				font-size: 12px;
+				font-weight: bolder;
+			}
+			.price-year{
+				font-size: 50px;
+				font-weight: bolder;
+			}
+			.year{
+				font-family: $font-NotoSerif;
+				color: #989797;
+				font-size: 20px;
+			}
+			.description-prices{
+				font-family: $font-raleway;
+				color: #828282;
+				margin-top: 20px;
+			}
+			button{
+				margin-top: 30px;
+				@include boton();
+			}
+			@include prices();
+		}
+		.prices2{
+			h5{
+				font-family: $font-raleway;
+				color: #ABAAAA;
+				font-size: 12px;
+				font-weight: bolder;
+			}
+			.price-year{
+				font-size: 50px;
+				font-weight: bolder;
+			}
+			.year{
+				font-family: $font-NotoSerif;
+				color: #989797;
+				font-size: 20px;
+			}
+			.description-prices{
+				font-family: $font-raleway;
+				color: #828282;
+				margin-top: 20px;
+			}
+			button{
+				margin-top: 30px;
+				@include boton();
+			}
+			@include prices();
+		}
+	}
+}
+/* OUR CLIENTS LOVE US */
+.eighth-section{
+	.row{
+		div{
+			h1{
+				margin-top: 60px;
+				font-family: $font-NotoSerif;
+				font-size: 35px;
+				font-weight: bolder;
+				margin-top: 90px;
+				margin-bottom: 30px;
+			}
+			p{
+				font-family: $font-raleway;
+				color: $font-color-2section;
+				font-size: 17px;
+				margin-bottom: 30px;
+				padding: 20px;
+			}
+		}
+	}
+	.row{
+		div{
+			padding: 30px;
+			img{
+				width: 30%;
+				box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+			}
+			.tittle{
+				font-family: $font-NotoSerif;
+				color: #4C4B4B;
+				font-weight: bolder;
+				font-size: 17px;
+				padding-top: 15px;
+				padding-left: 10px;
+			}
+			h5{
+				font-family: $font-raleway;
+				color: #615F5F;
+				font-size: 12px;
+				font-weight: bolder;
+				padding-left: 10px;
+			}
+			p{
+				font-family: $font-raleway;
+				font-size: 14px;
+				padding-left: 10px;
 			}
 		}
 	}
