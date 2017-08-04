@@ -390,12 +390,7 @@ body{
 	.row{
 		div{
 			h1{
-				margin-top: 60px;
-				font-family: $font-NotoSerif;
-				font-size: 35px;
-				font-weight: bolder;
-				margin-top: 90px;
-				margin-bottom: 30px;
+				@include tituloUno();
 			}
 			p{
 				font-family: $font-raleway;
@@ -451,13 +446,8 @@ body{
 	.row{
 		div{
 			h1{
-				margin-top: 60px;
-				font-family: $font-NotoSerif;
-				font-size: 35px;
-				font-weight: bolder;
-				margin-top: 90px;
-				margin-bottom: 30px;
 				color: $iconos_nav;
+				@include tituloUno();
 			}
 			h4{
 				font-family: $font-raleway;
@@ -481,12 +471,64 @@ body{
 				}
 				button{
 					margin-left: 50px;
-					
 					@include boton();
 				}
 			}
 		}
 	}
+}
+/* CHECKOUT OUR LATEST NEWS */
+.tenth-section{
+	.row{
+		div{
+			h1{
+				@include tituloUno();
+			}
+			p{
+				font-family: $font-raleway;
+				color: $font-color-2section;
+				font-size: 17px;
+				margin-bottom: 30px;
+				padding: 20px;
+			}
+			img{
+				border-radius: 20px;
+				padding: 15px;
+			}
+			.appearance1{
+				color: $boton-color-nav;
+				@include appearances();				
+			}
+			.appearance2{
+				color: #23B0E4;
+				@include appearances();
+			}
+			.appearance3{
+				color: #FC2312;
+				@include appearances();
+			}
+			.tittle{
+				font-family: $font-NotoSerif;
+				color: #4C4B4B;
+				font-weight: bolder;
+				font-size: 17px;
+				position: relative;
+				bottom: 25px;
+				left: 10px;
+				padding-left: 10px;
+			}
+			.parrafo-blog{
+				font-family: $font-raleway;
+				font-size: 14px;
+				padding-left: 10px;
+				position: relative;
+				bottom: 25px;
+				left: 10px;
+			}
+		}
+	}
+	height: 850px;
+	@include container();
 }
 .eleventh-section{
 	background-image: url(../img/img_city.jpg);

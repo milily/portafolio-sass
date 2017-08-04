@@ -6184,13 +6184,13 @@ body {
   position: relative;
   bottom: 60px; }
   .ninth-section .row div h1 {
+    color: #FFFEFE;
     margin-top: 60px;
     font-family: "Noto Serif", serif;
     font-size: 35px;
     font-weight: bolder;
     margin-top: 90px;
-    margin-bottom: 30px;
-    color: #FFFEFE; }
+    margin-bottom: 30px; }
   .ninth-section .row div h4 {
     font-family: "Raleway", sans-serif;
     color: #FFFEFE;
@@ -6213,6 +6213,62 @@ body {
     border-color: #F31951;
     padding: 15px;
     color: #FFFEFE; }
+
+/* CHECKOUT OUR LATEST NEWS */
+.tenth-section {
+  height: 850px;
+  width: 95%;
+  background-color: #FFFEFE;
+  position: relative;
+  bottom: 60px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); }
+  .tenth-section .row div h1 {
+    margin-top: 60px;
+    font-family: "Noto Serif", serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 30px; }
+  .tenth-section .row div p {
+    font-family: "Raleway", sans-serif;
+    color: #A3A2A2;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding: 20px; }
+  .tenth-section .row div img {
+    border-radius: 20px;
+    padding: 15px; }
+  .tenth-section .row div .appearance1 {
+    color: #F31951;
+    font-family: "Noto Serif", serif;
+    font-size: 13px;
+    font-weight: bolder; }
+  .tenth-section .row div .appearance2 {
+    color: #23B0E4;
+    font-family: "Noto Serif", serif;
+    font-size: 13px;
+    font-weight: bolder; }
+  .tenth-section .row div .appearance3 {
+    color: #FC2312;
+    font-family: "Noto Serif", serif;
+    font-size: 13px;
+    font-weight: bolder; }
+  .tenth-section .row div .tittle {
+    font-family: "Noto Serif", serif;
+    color: #4C4B4B;
+    font-weight: bolder;
+    font-size: 17px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    padding-left: 10px; }
+  .tenth-section .row div .parrafo-blog {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 25px;
+    left: 10px; }
 
 .eleventh-section {
   background-image: url(../img/img_city.jpg);
