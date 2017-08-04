@@ -530,9 +530,218 @@ body{
 	height: 850px;
 	@include container();
 }
+/* GET IN TOUCH */
 .eleventh-section{
 	background-image: url(../img/img_city.jpg);
-	height: 70vh;
+	height: 95vh;
   	background-size: cover;
   	background-repeat: no-repeat;
+  	background-position: center top;
+  	width: 95.1%;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	position: relative;
+	bottom: 60px;
+	.row{
+		div{
+			h1{
+				color: $iconos_nav;
+				margin-left: 40px;
+				@include tituloUno();
+			}
+			p{
+				font-family: $font-raleway;
+				color: $iconos_nav;
+				font-size: 17px;
+				margin-left: 40px;
+			}
+			.row{
+				div{
+					i{
+						color: $iconos_nav;
+						font-size: 30px;
+						position:relative;
+						top: 15px;
+						left: 50px;
+					}
+				}
+				div{
+					h3{
+						font-family: $font-NotoSerif;
+						color: $iconos_nav;
+						font-size: 20px;
+						font-weight: bolder;
+						margin-left: 20px;
+					}
+					p{
+						color: $iconos_nav;
+						font-size: 13px;
+						font-weight: bolder;
+					}
+				}
+			}
+		}
+		.fondo-contact{
+			background-color: $iconos_nav;
+			border-radius: 10px;
+			margin-top: 100px;
+			margin-left: 70px;
+			width: 35%;
+			height: 450px;
+			.row{
+				.contact-us{
+					h3{
+						color: $iconos_nav;
+						margin-top: 60px;
+						font-family: $font-NotoSerif;
+						font-size: 20px;
+						font-weight: bolder;
+						margin-top: 90px;
+						margin-bottom: 30px;
+						background-color: $boton-color-nav;
+						width: 97%;
+						padding: 25px;
+						border-radius: 5px;
+						position: relative;
+						bottom: 110px;
+						right: 15px;
+						box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+					}
+					
+				}
+			}
+			.row{
+				div{
+					.input1{
+						width: 90%;
+						border: 0px;
+						margin-top: 15px;
+						border-bottom: 1px solid #A7A6A6;
+						color: #A7A6A6;
+						margin-bottom: 20px;
+						position: relative;
+						bottom: 100px;
+					}
+				}
+			}
+			.row{
+				div{
+					.input2{
+						width: 95%;
+						border: 0px;
+						margin-top: 15px;
+						border-bottom: 1px solid #A7A6A6;
+						color: #A7A6A6;
+						position: relative;
+						bottom: 100px;
+					}
+				}
+			}
+			.row{
+				div{
+					.form-group{
+						label{
+							color: #A7A6A6;
+							margin-left: 15px;
+							position: relative;
+							bottom: 70px;
+						}
+						textarea{
+							width: 95%;
+							border: 0px;
+							margin-top: 15px;
+							border-bottom: 1px solid #A7A6A6;
+							color: #A7A6A6;
+							position: relative;
+							left: 10px;
+							bottom: 90px;
+						}
+					}
+				}
+			}
+			.row{
+				div{
+					button{
+						position: relative;
+						bottom: 80px;
+						right: 10px;
+						@include boton();
+					}
+				}
+			}
+		}
+	}
+}
+/* FOOTER */
+.twelfth-section{
+	width: 95.1%;
+	height: 450px;
+	background-color: #403F3F;
+	position: relative;
+	bottom: 60px;
+	padding-top: 50px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	.row{
+		margin-bottom: 20px;
+		div{
+			h2{
+				font-family: $font-NotoSerif;
+				color: $nav_color;
+				font-size: 19px;
+				font-weight: bolder;
+				margin-left: 20px;
+				margin-bottom: 30px;
+			}
+			p{
+				font-family: $font-raleway;
+				color: $font-color-2section;
+				font-size: 13px;
+				margin-left: 20px;
+			}
+		}
+		div{
+			.row{
+				div{
+					i{
+						color: $iconos_nav;
+						font-size: 16px;
+						position: relative;
+						left: 20px;
+					}
+				}
+			}
+		}
+		div{
+			.row{
+				div{
+					img{
+						border-radius: 20px;
+						padding: 5px;
+						position: relative;
+						right: 15px;
+					}
+				}
+			}
+		}
+	}
+	hr{
+		color: $font-color-2section;
+		width: 97%;
+		margin-left: 20px;
+	}
+	.row{
+		div{
+			a{
+				font-family: $font-raleway;
+				color: $iconos_nav;
+				font-size: 12px;
+				margin-left: 20px;
+				margin-right: 10px;
+			}
+		}
+		div{
+			p{
+				margin-right: 10px;
+			}
+		}
+	}
 }
