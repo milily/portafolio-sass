@@ -6270,10 +6270,108 @@ body {
     bottom: 25px;
     left: 10px; }
 
+/* GET IN TOUCH */
 .eleventh-section {
   background-image: url(../img/img_city.jpg);
-  height: 70vh;
+  height: 95vh;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 95.1%;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  bottom: 60px; }
+  .eleventh-section .row div h1 {
+    color: #FFFEFE;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-family: "Noto Serif", serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 30px; }
+  .eleventh-section .row div p {
+    font-family: "Raleway", sans-serif;
+    color: #FFFEFE;
+    font-size: 17px;
+    margin-left: 40px; }
+  .eleventh-section .row div .row div i {
+    color: #FFFEFE;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 50px; }
+  .eleventh-section .row div .row div h3 {
+    font-family: "Noto Serif", serif;
+    color: #FFFEFE;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px; }
+  .eleventh-section .row div .row div p {
+    color: #FFFEFE;
+    font-size: 13px;
+    font-weight: bolder; }
+  .eleventh-section .row .fondo-contact {
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 35%;
+    height: 450px; }
+    .eleventh-section .row .fondo-contact .row .contact-us h3 {
+      color: #FFFEFE;
+      margin-top: 60px;
+      font-family: "Noto Serif", serif;
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 90px;
+      margin-bottom: 30px;
+      background-color: #F31951;
+      width: 97%;
+      padding: 25px;
+      border-radius: 5px;
+      position: relative;
+      bottom: 110px;
+      right: 15px;
+      box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); }
+    .eleventh-section .row .fondo-contact .row div .input1 {
+      width: 90%;
+      border: 0px;
+      margin-top: 15px;
+      border-bottom: 1px solid #A7A6A6;
+      color: #A7A6A6;
+      margin-bottom: 20px;
+      position: relative;
+      bottom: 100px; }
+    .eleventh-section .row .fondo-contact .row div .input2 {
+      width: 95%;
+      border: 0px;
+      margin-top: 15px;
+      border-bottom: 1px solid #A7A6A6;
+      color: #A7A6A6;
+      position: relative;
+      bottom: 100px; }
+    .eleventh-section .row .fondo-contact .row div .form-group label {
+      color: #A7A6A6;
+      margin-left: 15px;
+      position: relative;
+      bottom: 70px; }
+    .eleventh-section .row .fondo-contact .row div .form-group textarea {
+      width: 95%;
+      border: 0px;
+      margin-top: 15px;
+      border-bottom: 1px solid #A7A6A6;
+      color: #A7A6A6;
+      position: relative;
+      left: 10px;
+      bottom: 90px; }
+    .eleventh-section .row .fondo-contact .row div button {
+      position: relative;
+      bottom: 80px;
+      right: 10px;
+      background-color: #F31951;
+      border-color: #F31951;
+      padding: 15px;
+      color: #FFFEFE; }
 
 /*# sourceMappingURL=main.css.map */
